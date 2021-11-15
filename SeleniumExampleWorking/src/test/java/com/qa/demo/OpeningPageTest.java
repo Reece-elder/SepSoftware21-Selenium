@@ -26,26 +26,26 @@ public class OpeningPageTest {
 	
 	// A test to check the title of bing is "Bing"
 	
-	@Test
-	void testBingTitle() {
-		// Arrange Act Assert 
-		
-		System.out.println(driver);
-		
-		// Arrange - Setup
-		String testString = "Bing";
-		String testUrl = "https://www.bing.com/";
-		
-		// Act - What we're doing
-		// Opens up a browser connecting to Bing
-		this.driver.get(testUrl);
-		
-		// Assert - What we're testing
-		// Asserting if the title of Bing is Bing
-		System.out.println(driver.getTitle());
-		Assertions.assertEquals(testString, driver.getTitle());
-		
-	}
+//	@Test
+//	void testBingTitle() {
+//		// Arrange Act Assert 
+//		
+//		System.out.println(driver);
+//		
+//		// Arrange - Setup
+//		String testString = "Bing";
+//		String testUrl = "https://www.bing.com/";
+//		
+//		// Act - What we're doing
+//		// Opens up a browser connecting to Bing
+//		this.driver.get(testUrl);
+//		
+//		// Assert - What we're testing
+//		// Asserting if the title of Bing is Bing
+//		System.out.println(driver.getTitle());
+//		Assertions.assertEquals(testString, driver.getTitle());
+//		
+//	}
 	
 	@AfterEach
 	void teardown() {
